@@ -5,7 +5,7 @@
 Summary:	%{pearname} - XML parsing class based on PHP's bundled expat
 Name:		php-pear-XML_Parser2
 Version:	0.1.0
-Release:	1
+Release:	2
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
@@ -53,6 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog install.log
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/XML/Parser2.php
-%{php_pear_dir}/XML/Parser2/Simple.php
+%{php_pear_dir}/XML/Parser2
 %{php_pear_dir}/data/XML_Parser2
 %{_examplesdir}/%{name}-%{version}

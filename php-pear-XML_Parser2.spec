@@ -1,7 +1,6 @@
 # $Revision: 1.31 $, $Date: 2011/04/10 20:45:35 $
 %define		status		beta
 %define		pearname	XML_Parser2
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - XML parsing class based on PHP's bundled expat
 Name:		php-pear-XML_Parser2
 Version:	0.1.0
